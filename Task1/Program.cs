@@ -11,7 +11,7 @@ string[] CutStringNumElement(string[] s)
     string[] s2 = new string[count];
     int index = 0;
     int j = 0;
-    while (j<s.Length)
+    while (j<s2.Length)
     {
         if (s[j].Length <= 3)
         {

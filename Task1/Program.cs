@@ -11,7 +11,7 @@ string[] CutStringNumElement(string[] s)
     string[] s2 = new string[count];
     int index = 0;
     int j = 0;
-    while (j<s2.Length)
+    while (j < s2.Length)
     {
         if (s[j].Length <= 3)
         {
@@ -20,7 +20,6 @@ string[] CutStringNumElement(string[] s)
             j++;
         }
         else j++;
-        
     }
     return s2;
 }
@@ -35,5 +34,5 @@ void PrintArray(string[] str)
 }
 string[] result = CutStringNumElement(arrString);
 PrintArray(arrString);
-Console.Write (" -> ");
+Console.Write(" -> ");
 PrintArray(result);
